@@ -18,7 +18,8 @@ import { Input } from "./input";
 
 export function Chat() {
   const [input, setInput] = useState<string>("");
-  const [selectedModelId, setSelectedModelId] = useState<modelID>("sonnet-3.7");
+  // const [selectedModelId, setSelectedModelId] = useState<modelID>("sonnet-3.7");
+  const [selectedModelId, setSelectedModelId] = useState<modelID>("deepseek-r1-distill-llama-70b");
   const [isReasoningEnabled, setIsReasoningEnabled] = useState<boolean>(true);
 
   const { messages, append, status, stop } = useChat({

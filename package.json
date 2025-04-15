@@ -12,6 +12,7 @@
     "@ai-sdk/anthropic": "1.1.10",
     "@ai-sdk/deepinfra": "^0.1.18",
     "@ai-sdk/fireworks": "^0.1.18",
+    "@ai-sdk/google": "^1.2.8",
     "@ai-sdk/groq": "^1.1.16",
     "@ai-sdk/react": "1.1.18",
     "ai": "4.1.66",
